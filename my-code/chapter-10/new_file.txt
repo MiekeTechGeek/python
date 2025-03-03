@@ -1,0 +1,2 @@
+Today was a day that was being a day.
+We learnt how to open .txt files in python
