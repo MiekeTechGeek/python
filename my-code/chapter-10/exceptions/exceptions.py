@@ -3,6 +3,8 @@
 # except:
 #     print("Sorry, you can't give off that output.")
 
+glitchy = input("Fix this.") 
+
 try:
     print(glitchy)
 except:
@@ -10,5 +12,5 @@ except:
 else:
     print("A value has passed...")
 
-glitchy = input("Fix this.")
+glitchy = input("Fix this.") 
     
