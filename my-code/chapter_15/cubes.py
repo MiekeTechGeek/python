@@ -23,7 +23,7 @@ y_values_5000 = x_values_5000**3    # Cubes of these numbers
 colors = y_values_5000 / max(y_values_5000)  # Normalize colors based on cube values
 
 plt.figure(figsize=(10, 8))
-scatter = plt.scatter(x_values_5000, y_values_5000, c=colors, cmap='viridis', s=1)
+scatter = plt.scatter(x_values_5000, y_values_5000, c=colors, cmap='plasma', s=3) # viridis # s=1
 plt.colorbar(scatter)  # Add colorbar to show color mapping
 plt.title("First 5,000 Cubic Numbers with Colormap")
 plt.xlabel("Number")
