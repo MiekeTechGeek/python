@@ -4,7 +4,7 @@
     <title>Topic Detail</title>
 </head>
 <body>
-    <h1>{{ topic.name }}</h1>
-    <p>{{ topic.description }}</p>
+    <h1>{{ topic.text }}</h1>
+    <p>Added on: {{ topic.date_added|date:"M d, Y" }}</p>    
 </body>
 </html>
