@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "./my-code/chapter_12/refactoring"
+        "./my-code/chapter_12/refactoring",
+        "./src/pcc_3e-main/solution_files/chapter_18/ex_18_4_pizzeria"
     ]
 }
